@@ -13,4 +13,6 @@ services:
      - DATABASE_HOST=db
   web:
     build: ./frontend
+    ports:
+      - "5000:5000"
   
