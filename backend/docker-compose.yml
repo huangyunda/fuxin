@@ -1,0 +1,16 @@
+version: '3'
+services:
+  db:
+    build: ./wechat-mysql
+    restart: always
+  koa:
+    build: ./wechat-koa
+    ports:
+     - "2333:2333"
+    depends_on:
+     - db
+    environment:
+     - DATABASE_HOST=db
+  web:
+    build: ./frontend
+  

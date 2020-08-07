@@ -1,0 +1,45 @@
+@import '~antd/dist/antd.css';
+
+.container {
+  height: 100%;
+  display: flex;
+}
+
+.menu {
+  width: 256px;
+  background-color: #001529;
+  color: #fff;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.admin {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.content {
+  background-color: #fff;
+  flex: 1;
+  padding: 50px;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.download {
+  margin-top: 6px;
+  margin-left: 10px;
+  color: #1890ff;
+  cursor: pointer;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+  font-size: 20px;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "koa-example",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@koa/cors": "^2.2.3",
+    "koa": "^2.8.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^7.4.0",
+    "mysql": "^2.18.1",
+    "node-xlsx": "^0.15.0",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "yd_huang",
+  "license": "ISC"
+}
